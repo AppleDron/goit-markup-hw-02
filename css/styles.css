@@ -4,11 +4,13 @@
   --main-family: "Roboto", sans-serif;
   --main-color: #2e2f42;
   --secondary-color: #434455;
+  --main-background-color: #ffffff;
+  --logo-color: #4d5ae5;
 }
 
-.body {
+body {
   font-family: var(--main-family);
-  color: var(--main-color);
+  color: var(--secondary-color);
 }
 
 .list {
@@ -35,7 +37,22 @@
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
+  color: #2e2f42;
 }
+
+.web-logo {
+  font-family: "Raleway", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
 .nav-list {
 }
 .nav-list-item {
@@ -43,6 +60,7 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 
 .nav-list-item:hover,
@@ -64,7 +82,6 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-color);
 }
 
 .contact-mail:hover,
@@ -78,7 +95,6 @@
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-color);
 }
 
 .contact-phone:hover,
@@ -91,6 +107,7 @@
 /* ========== HERO SECTION ========== */
 
 .hero-section {
+  background-color: var(--main-color);
 }
 .main-title {
   font-weight: 700;
@@ -101,7 +118,7 @@
   color: #ffffff;
 }
 .btn {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -110,11 +127,13 @@
   letter-spacing: 0.04em;
   color: #ffffff;
   cursor: pointer;
+  background-color: var(--logo-color);
 }
 
 .btn:hover,
 .btn:focus {
   color: #ffffff;
+  background-color: #404bbf;
 }
 
 /* ========== /HERO SECTION ========== */
@@ -133,12 +152,12 @@
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 .about-list-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-color);
 }
 /* ========== /SECTION ABOUT ========== */
 
@@ -152,6 +171,7 @@
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--main-color);
 }
 .gallery-list {
 }
@@ -163,6 +183,7 @@
 
 /* ========== SECTION TEAM ========== */
 .team-section {
+  background-color: #f4f4fd;
 }
 .second-title {
   font-weight: 700;
@@ -171,12 +192,14 @@
   text-align: center;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  color: var(--main-color);
 }
 .team-list {
 }
 .list {
 }
 .team-list-item {
+  background-color: #ffffff;
 }
 .team-list-img {
 }
@@ -186,21 +209,50 @@
   line-height: 1.2;
   text-align: center;
   letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 .teammate-position {
   font-size: 16px;
   line-height: 1.5;
   text-align: center;
   letter-spacing: 0.02em;
-  color: var(--secondary-color);
 }
 /* ========== /SECTION TEAM ========== */
 
 /* ========== FOOTER ========== */
+
+.footer {
+  background-color: #2e2f42;
+}
+
 .footer-text {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+
+.web-logo-footer {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  color: #4d5ae5;
+}
+
+.logo-link-footer {
+  font-family: "Raleway" . sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
   color: #f4f4fd;
 }
 /* ========== /FOOTER ========== */
@@ -215,7 +267,7 @@
 .btn-list-item {
 }
 .btn-portfolio {
-  font-family: inherit;
+  font-family: "Roboto", sans-serif;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
@@ -225,11 +277,13 @@
   letter-spacing: 0.04em;
   color: #4d5ae5;
   cursor: pointer;
+  background-color: #f4f4fd;
 }
 
 .btn-portfolio:hover,
 .btn-portfolio:focus {
   color: #ffffff;
+  background-color: #404bbf;
 }
 /* ========== FILTER OF BUTTONS ========== */
 
@@ -251,12 +305,12 @@
   font-size: 20px;
   line-height: 1.2;
   letter-spacing: 0.02em;
+  color: var(--main-color);
 }
 .portfolio-cards-subtitle {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
-  color: var(--secondary-color);
 }
 /* ========== /PORTFOLIO ROWS ========== */
 
