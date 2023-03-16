@@ -1,0 +1,263 @@
+/* ========== COMPONENTS ========== */
+
+:root {
+  --main-family: "Roboto", sans-serif;
+  --main-color: #2e2f42;
+  --secondary-color: #434455;
+}
+
+.body {
+  font-family: var(--main-family);
+  color: var(--main-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* ========== /COMPONENTS ========== */
+
+/* ========== MAIN PAGE ========== */
+/* ========== HEADER ========== */
+
+.header {
+}
+.logo-link {
+  font-family: "Raleway", sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.17;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+.nav-list {
+}
+.nav-list-item {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+}
+
+.nav-list-item:hover,
+.nav-list-item:focus {
+  color: #404bbf;
+}
+
+.contact {
+}
+.contact-list {
+}
+.list {
+}
+.contact-list-item {
+}
+.contact-mail {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+.contact-mail:hover,
+.contact-mail:focus {
+  color: #404bbf;
+}
+
+.contact-phone {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+
+.contact-phone:hover,
+.contact-phone.focus {
+  color: #404bbf;
+}
+
+/* ========== /HEADER ========== */
+
+/* ========== HERO SECTION ========== */
+
+.hero-section {
+}
+.main-title {
+  font-weight: 700;
+  font-size: 56px;
+  line-height: 1.07;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+.btn {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  letter-spacing: 0.04em;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+.btn:hover,
+.btn:focus {
+  color: #ffffff;
+}
+
+/* ========== /HERO SECTION ========== */
+
+/* ========== SECTION ABOUT ========== */
+.section-about {
+}
+.about-title {
+}
+.about-list {
+}
+.about-list-item {
+}
+.about-list-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.about-list-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+/* ========== /SECTION ABOUT ========== */
+
+/* ========== SECTION GALLERY ========== */
+.gallery-section {
+}
+.second-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.gallery-list {
+}
+.gallery-list-item {
+}
+.gallery-picture {
+}
+/* ========== /SECTION GALLERY ========== */
+
+/* ========== SECTION TEAM ========== */
+.team-section {
+}
+.second-title {
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.11;
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+}
+.team-list {
+}
+.list {
+}
+.team-list-item {
+}
+.team-list-img {
+}
+.teammate {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 0.02em;
+}
+.teammate-position {
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+/* ========== /SECTION TEAM ========== */
+
+/* ========== FOOTER ========== */
+.footer-text {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #f4f4fd;
+}
+/* ========== /FOOTER ========== */
+/* ========== MAIN PAGE ========== */
+
+/* ========== PORTFOLIO PAGE ========== */
+/* ========== FILTER OF BUTTONS ========== */
+.btn-filter {
+}
+.btn-list {
+}
+.btn-list-item {
+}
+.btn-portfolio {
+  font-family: inherit;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.04em;
+  color: #4d5ae5;
+  cursor: pointer;
+}
+
+.btn-portfolio:hover,
+.btn-portfolio:focus {
+  color: #ffffff;
+}
+/* ========== FILTER OF BUTTONS ========== */
+
+/* ========== PORTFOLIO ROWS ========== */
+.row-one-section {
+}
+.portfolio-list {
+}
+.list {
+}
+.portfolio-list-item {
+}
+.portfolio-article {
+}
+.portfolio-images {
+}
+.portfolio-cards-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
+}
+.portfolio-cards-subtitle {
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--secondary-color);
+}
+/* ========== /PORTFOLIO ROWS ========== */
+
+/* ========== /PORTFOLIO PAGE ========== */
