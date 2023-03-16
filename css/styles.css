@@ -38,7 +38,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #2e2f42;
+  color: var(--logo-color);
 }
 
 .web-logo {
@@ -51,7 +51,7 @@ body {
   align-items: center;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--logo-color);
+  color: #2e2f42;
 }
 
 .nav-list {
@@ -301,6 +301,7 @@ body {
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
+  color: var(--secondary-color);
 }
 /* ========== /PORTFOLIO ROWS ========== */
 
